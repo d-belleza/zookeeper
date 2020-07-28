@@ -2,7 +2,7 @@ const express = require('express');
 const {animals} = require('./data/animals')
 
 // instantiate server
-const PORT = process.nextTick.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 
