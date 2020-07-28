@@ -5,6 +5,7 @@ const {animals} = require('./data/animals')
 const PORT = process.nextTick.PORT || 3001;
 const app = express();
 
+
 function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];
     // Note that we save the animalsArray as filteredResults here:
